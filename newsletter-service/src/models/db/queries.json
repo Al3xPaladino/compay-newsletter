@@ -1,0 +1,10 @@
+{
+    "GET": {
+        "USER_BY_USERNAME": "SELECT id, username, enable, tscreate, id_person FROM USER_CREDENTIAL WHERE username = ?"
+    },
+    "INSERT": {
+        "USER": "INSERT INTO USER (ID, name, phone, email, accept_privacy, accept_updates ) VALUES ( ? , ? , ? , ? , ? , ? );"
+    },
+    "UPDATE": {},
+    "DELETE": {}
+}
